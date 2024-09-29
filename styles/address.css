@@ -17,11 +17,20 @@
     border-bottom-right-radius: 10px;
 }
 .address-card .info-card {
+    justify-content: center;
     border-radius: 10px;
     background-color: #fff3e0;
 }
 .address-card .info-card-icon {
     color: #CE9300;
+}
+.address-card .address {
+    display: flex;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+.address-card .name {
+   text-align: center;
 }
 @media only screen and (min-width: 375px) {
     #address-header .divider-contianer {
@@ -56,6 +65,12 @@
     .address-card .info-card-icon {
         font-size: 20px;
     }
+    .address-card .sub-image-container-1 {
+        padding: 1rem .5rem 0 0;
+    }
+    .address-card .sub-image-container-2 {
+        padding: 1rem 0 0 .5rem;
+    }
 }
 @media only screen and (min-width: 700px) {
     #address-header .title {
@@ -71,20 +86,26 @@
         font-weight: 700;
     }
     .address-card .address {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
     }
     .address-card .time {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
         color: #00000080;
     }
     .address-card .time-value {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
     }
     .address-card .info-card-icon {
-        font-size: 25px;
+        font-size: 32px;
+    }
+    .address-card .sub-image-container-1 {
+        padding: 2rem 1rem 0 0;
+    }
+    .address-card .sub-image-container-2 {
+        padding: 2rem 0 0 1rem;
     }
 }
 @media only screen and (min-width: 1400px) {
@@ -99,4 +120,50 @@
         font-size: 20px;
         font-weight: 500;
     }
+    .address-card .sub-image-container-1 {
+        padding: 0;
+        padding-bottom: .5rem;
+    }
+    .address-card .sub-image-container-2 {
+        padding: 0;
+        padding-top: .5rem;
+    }
+    .sub-image-1 {
+        max-height: 200px;
+    }
+    .sub-image-2 {
+        max-height: 200px;
+    }
+    .address-card .address {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .address-card .time {
+        font-size: 22px;
+        font-weight: 400;
+        color: #00000080;
+    }
+    .address-card .time-value {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .address-card .info-card-icon {
+        font-size: 32px;
+    }
+    .address-card .info-card {
+        justify-content: start !important;
+        background-color: transparent !important;
+    }
+    .address-card .address {
+        text-align: start;
+        padding: 0 0 0 8px;
+    }
+    .address-card .first-image {
+        width: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    .address-card .name {
+        text-align: start;
+        padding-left: 63px;
+     }
 }
