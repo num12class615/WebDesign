@@ -1,0 +1,102 @@
+#address-header {
+    padding-top: 32px;
+}
+.address-card .first-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.address-card .sub-image-1 {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.address-card .sub-image-2 {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.address-card .info-card {
+    border-radius: 10px;
+    background-color: #fff3e0;
+}
+.address-card .info-card-icon {
+    color: #CE9300;
+}
+@media only screen and (min-width: 375px) {
+    #address-header .divider-contianer {
+        padding: 0;
+    }
+    #address-header .title {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #address-header .desc {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0 30px 0 30px;
+    }
+    .address-card .name {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .address-card .address {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .address-card .time {
+        font-size: 13px;
+        font-weight: 400;
+        color: #00000080;
+    }
+    .address-card .time-value {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .address-card .info-card-icon {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    #address-header .title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #address-header .desc {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .address-card .name {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .address-card .address {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .address-card .time {
+        font-size: 15px;
+        font-weight: 400;
+        color: #00000080;
+    }
+    .address-card .time-value {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .address-card .info-card-icon {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    #address-header .divider-contianer {
+        padding: 0 60px 0 60px;
+    }
+    #address-header .title {
+        font-size: 32px;
+        font-weight: 800;
+    }
+    #address-header .desc {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
