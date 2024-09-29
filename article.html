@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radiant Diamond</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- google icon font: fill style -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- google icon font: outlined style -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/article.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+  </head>
+  <body>
+    <!-- Navbar Template -->
+    <div id="navbar-template">
+      <!-- Sidebar Menu -->
+      <div id="overlay"></div>
+      <div class="sidebar" id="modal">
+        <div class="sidebar-content">
+          <div class="header">
+            <div class="app-title">
+              <img
+                src="./assets/images/radiant-daimond-logo.jpg"
+                alt="Logo Radiant รูปมงกุฎบนเพชรสีทอง"
+                class="app-logo"
+              />
+              <div class="app-name">Radiant Diamond</div>
+            </div>
+            <div id="closeIcon">
+              <span class="material-icons-outlined"> close </span>
+            </div>
+          </div>
+          <!-- First Level -->
+          <div class="menu">
+            <ul class="first-level">
+              <li id="jewelry">
+                <a href="#">
+                  จิวเวลรี่
+                  <hr class="menu-divider" />
+                </a>
+              </li>
+              <li id="wedding">
+                <a href="#"
+                  >แต่งงาน
+                  <hr class="menu-divider"
+                /></a>
+              </li>
+              <li id="diamond">
+                <a href="#"
+                  >เพชร
+                  <hr class="menu-divider"
+                /></a>
+              </li>
+              <li id="gift">
+                <a href="#"
+                  >ของขวัญ
+                  <hr class="menu-divider"
+                /></a>
+              </li>
+              <li id="article">
+                <a href="#"
+                  >บทความ
+                  <hr class="menu-divider"
+                /></a>
+              </li>
+              <li id="benefits">
+                <a href="#"
+                  >สิทธิประโยชน์สมาชิก
+                  <hr class="menu-divider"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div id="menuHeader"></div> -->
+          <div class="sub-menu-section">
+            <!-- <div id="secondDivider" class="verticle-divider"></div> -->
+            <!-- Second Level -->
+            <div id="secondLevel" class="menu-level-section">
+              <div class="menu" id="jewelryMenu">
+                <ul>
+                  <li id="ring">
+                    <a href="#"
+                      >แหวน
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="earring">
+                    <a href="#"
+                      >ต่างหู
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="necklace">
+                    <a href="#"
+                      >สร้อยคอ
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="bracelet">
+                    <a href="#"
+                      >สร้อยข้อมือ
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu" id="weddingMenu">
+                <ul>
+                  <li id="weddingRing">
+                    <a href="#"
+                      >แหวนแต่งงาน/แหวนหมั้น
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="singleDiamondRing">
+                    <a href="#"
+                      >แหวนเพชรเม็ดเดียว
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="rowDiamondRing">
+                    <a href="#"
+                      >แหวนเพชรแถว
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="goldRing">
+                    <a href="#"
+                      >แหวนทอง
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu" id="giftMenu">
+                <ul>
+                  <li id="momDay">
+                    <a href="#"
+                      >วันแม่
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="valentine">
+                    <a href="#"
+                      >วาเลนไทน์
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="woman">
+                    <a href="#"
+                      >ผู้หญิง
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="man">
+                    <a href="#"
+                      >ผู้ชาย
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="anniversary">
+                    <a href="#"
+                      >วันครบรอบ
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="budget">
+                    <a href="#"
+                      >ของขวัญตามงบประมาณ
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="thirdDivider" class="verticle-divider"></div>
+            <!-- Third Level -->
+            <div class="menu-level-section">
+              <div class="menu" id="ringMenu">
+                <ul>
+                  <li id="minimal">
+                    <a href="#"
+                      >Minimal
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="modern">
+                    <a href="#"
+                      >Modern
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="prettyRing">
+                    <a href="#"
+                      >Pretty ring
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu" id="earringMenu">
+                <ul>
+                  <li id="stud">
+                    <a href="#"
+                      >Stud ต่างหูติดหู
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="long">
+                    <a href="#"
+                      >Long ต่างหูยาว
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="hoop">
+                    <a href="#"
+                      >Hoop ต่างหูห่วง
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu" id="weddingRingMenu">
+                <ul>
+                  <li id="couple">
+                    <a href="#"
+                      >เซ็ตคู่
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="weddingWoman">
+                    <a href="#"
+                      >ผู้หญิง
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                  <li id="weddingMan">
+                    <a href="#"
+                      >ผู้ชาย
+                      <hr class="menu-divider"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation Bar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <!-- Website -->
+        <div
+          id="navbar-website"
+          class="row w-100 d-flex justify-content-between align-content-stretch"
+        >
+          <div class="navbar-menu d-flex align-items-center">
+            <i id="menu" class="material-icons navbar-icon">menu</i>
+          </div>
+          <div class="navbar-img-logo-container">
+            <img
+              class="navbar-img-logo"
+              src="./assets/images/radiant-daimond-logo.jpg"
+            />
+          </div>
+          <div class="narbar-action d-flex justify-content-end">
+            <div
+              class="narbar-action-container d-flex justify-content-between align-items-center"
+            >
+              <i class="material-icons navbar-icon">search</i>
+              <i class="material-icons-outlined navbar-icon">shopping_basket</i>
+              <i class="material-icons-outlined navbar-icon">
+                account_circle
+              </i>
+            </div>
+          </div>
+        </div>
+        <!-- phone -->
+        <div
+          id="navbar-mobile"
+          class="w-100 row d-flex justify-content-between align-items-center pl-4"
+        >
+          <i id="memu-mobile" class="material-icons navbar-icon">menu</i>
+          <i class="material-icons navbar-icon">search</i>
+          <div>
+            <img
+              class="navbar-img-logo-mobile"
+              src="./assets/images/radiant-daimond-logo.jpg"
+            />
+          </div>
+          <i class="material-icons-outlined navbar-icon">shopping_basket</i>
+          <i class="material-icons-outlined navbar-icon"> account_circle </i>
+        </div>
+      </nav>
+      <!-- Navigation Selector Bar -->
+      <div
+        id="navbar-select-website"
+        class="navbar-select w-100 justify-content-center align-items-center y-5"
+      >
+        <a id="navbar-jewelry" class="navbar-select-item" href="./address.html"
+          >จิวเวลรี่</a
+        >
+        <a id="navbar-wedding" class="navbar-select-item">แต่งงาน</a>
+        <a id="navbar-diamond" class="navbar-select-item">เพชร</a>
+        <a id="navbar-gift" class="navbar-select-item">ของขวัญ</a>
+        <a id="navbar-article" class="navbar-select-item" href="./article.html"
+          >บทความ</a
+        >
+        <a id="navbar-benefits" class="navbar-select-item">
+          สิทธิประโยชน์สมาชิก
+        </a>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="row ml-0 mr-0 p-4">
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-1.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">3 วิธีวัดไซส์แหวน</div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-1.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">
+          2 ขั้นตอนการเลือกแหวน แต่งงาน
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-1.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">สวมแหวนตามวันเกิด</div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-1.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">เลือกแหวนตาม โทนสีผิว</div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-4.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">เปิดฤกษ์แต่งงาน 2024</div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 mb-3">
+        <div class="image-container">
+          <img
+            src="./assets/images/article-6.jpg"
+            alt=""
+            class="article-image"
+          />
+        </div>
+        <div class="article-title text-center py-3">วิธีดูแลเครื่องประดับ</div>
+      </div>
+    </div>
+    <script src="./scripts/sidebar.js"></script>
+  </body>
+</html>
